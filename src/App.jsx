@@ -2,7 +2,8 @@ import React from "react"
 import MouseTrail from "./components/MouseTrail"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
-import Movies from "./components/Movies"
+import Movies from "./components/MoviesList"
+import TopTenList from "./components/TopTenList"
 import Footer from "./components/Footer"
 import "./index.css"
 
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <Navbar/>
       <Movies/>
+      <TopTenList/>
       <Footer/>
     </div>
   )

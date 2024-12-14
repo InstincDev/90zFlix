@@ -6,7 +6,7 @@
   font-family: Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  font-family: "Audiowide";
   color-scheme: light dark;
   color: #000;
   background-color: linear-gradient(45deg, #ffcc00, #ff6600);
@@ -47,7 +47,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: hsla(48, 100%, 50%, 1);
-
+  
   background: radial-gradient(circle, hsla(48, 100%, 50%, 1) 16%, hsla(24, 100%, 50%, 1) 80%);
 
   background: -moz-radial-gradient(circle, hsla(48, 100%, 50%, 1) 16%, hsla(24, 100%, 50%, 1) 80%);
@@ -55,6 +55,8 @@ body {
   background: -webkit-radial-gradient(circle, hsla(48, 100%, 50%, 1) 16%, hsla(24, 100%, 50%, 1) 80%);
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCC00", endColorstr="#FF6600", GradientType=1 );
+  
+
 }
 
 .header{
@@ -69,6 +71,7 @@ body {
   animation: glitch 1s infinite;
   margin:0;
   font-size: 80px;
+  font-family: "VT323";
 }
 
 @keyframes glitch {
@@ -92,6 +95,7 @@ marquee{
   background-color: #000;
   color: #fff;
   padding: 5px;
+  
 }
 
 nav{
@@ -123,22 +127,6 @@ nav button:hover{
   /* border-collapse: collapse; */
 }
 
-.content img{
-  width: 150px;
-  height: 200px;
-  border: 5px solid #000;
-  transition: transform 0.3s ease-in-out;
-}
-
-.content img:hover{
-  transform: rotate(5deg) scale(1.1);
-}
-
-.content p{
-  font-size: 14px;
-  margin: 5px 0;
-}
-
 tbody{
 display: flex;
 justify-content: center;
@@ -146,15 +134,41 @@ flex-wrap: wrap;
 padding: 5px;
 }
 
+td img{
+  width: 150px;
+  height: 200px;
+  border: 5px solid #000;
+  transition: transform 0.3s ease-in-out;
+}
+td img:hover{
+  transform: rotate(5deg) scale(1.1);
+}
+
+td h3{
+  font-size: 16px;
+}
+
+td p{
+  font-size: 16px;
+  margin: 5px 0;
+  font-family: "Coming Soon";
+}
 td{
   width: 260px;
   height: 250;
   margin: 20px;
   padding: 10px;
-  border: 5px solid red;
+  border: 5px solid black;
+}
+
+.topten{
+  display: flex;
+  border: none;
 }
 
 footer{
+  display: flex;
+  justify-content: space-between;
   margin-top: 20px;
   font-size: 12px;
   color: #fff;

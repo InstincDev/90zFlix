@@ -4,10 +4,10 @@
 function Navbar() {
    return(
     <nav>
-        <button href="#">Home</button>
-        <button href="#">Year</button>
-        <button href="#">Top 10</button>
-        <button href="#">Guest List</button>
+        <button id="#">Home</button>
+        <button id="year">Year</button>
+        <button id="ten">Top 10</button>
+        <button id="#">Guest List</button>
     </nav>
    ) 
 }
