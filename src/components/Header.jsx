@@ -4,10 +4,9 @@ function Header() {
     return(
         <div className="header">
             <h1>
-                90flix 
+                90zFlix 
             </h1>
-            <span>Streaming Like It&apos;s The 90&apos;s</span>
-            <marquee behavior="alternate" >Welcome to the 90&apos;s Movie Experience!</marquee>
+            <marquee behavior="alternate" >Streaming Like It&apos;s The 90&apos;s!</marquee>
 
         </div>
     )

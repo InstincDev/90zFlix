@@ -1,4 +1,9 @@
 :root {
+  margin: 0;
+  height: 100%;
+  display:flex;
+  place-content: center;
+  place-items: center;
   font-family: Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -36,12 +41,10 @@ a:hover {
 }
 
 body {
+  width: 100%;
   margin: 0;
-  display: flex;
   place-items: center;
   text-align: center;
-  margin: 0;
-  padding: 0;
   min-width: 320px;
   min-height: 100vh;
   background: hsla(48, 100%, 50%, 1);
@@ -66,18 +69,18 @@ body {
   display: inline-block;
   animation: glitch 1s infinite;
   margin:0;
-  font-size: 36px;
+  font-size: 80px;
 }
 
 @keyframes glitch {
   0%{
-    text-shadow: 2px 2px blue, -2px -2px green;
+    text-shadow: 5px 5px blue, -5px -5px green;
   }
   50%{
-    text-shadow: -2px -2px green;
+    text-shadow: -5px -5px green;
   }
   100%{
-    text-shadow: 2px -2px blue, -2px 2px green;
+    text-shadow: 5px -5px blue, -5px 2px green;
   }
 }
 
@@ -86,10 +89,10 @@ body {
 }
 
 marquee{
-  font-size: 14px;
+  font-size: 25px;
   background-color: #000;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav{
@@ -120,6 +123,11 @@ nav a:hover{
   width: 150px;
   height: 200px;
   border: 5px solid #000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content imh:hover{
+  transform: rotate(5deg) scale(1.1);
 }
 
 .content p{
@@ -154,9 +162,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
