@@ -141,8 +141,17 @@ nav button:hover{
 
 tbody{
 display: flex;
-place-content: center;
+justify-content: center;
 flex-wrap: wrap;
+padding: 5px;
+}
+
+td{
+  width: 260px;
+  height: 250;
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid red;
 }
 
 footer{

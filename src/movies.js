@@ -19,8 +19,8 @@ export const movies = [
     },
     {
       year: 1991,
-      title: "Terminator 2: Judgment Day",
-      description: "A cyborg protects the future of humanity.",
+      title: "Terminator 2",
+      description: "A cyborg protects the future of humanity and Eric.",
       image: "/terminator.jpg",
     },
     {
