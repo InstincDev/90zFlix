@@ -120,7 +120,7 @@ nav button:hover{
 
 .content table{
   margin: 20px auto;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
 }
 
 .content img{
@@ -130,13 +130,19 @@ nav button:hover{
   transition: transform 0.3s ease-in-out;
 }
 
-.content imh:hover{
+.content img:hover{
   transform: rotate(5deg) scale(1.1);
 }
 
 .content p{
   font-size: 14px;
   margin: 5px 0;
+}
+
+tbody{
+display: flex;
+place-content: center;
+flex-wrap: wrap;
 }
 
 footer{
