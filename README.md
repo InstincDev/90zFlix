@@ -1,10 +1,10 @@
-90s-Themed Netflix Homepage (React + Vite Project)
+# 90zFlix
 
-# Project Description
+## Project Description
 
 This project is a nostalgic recreation of a 1990s-style homepage. The design aims to evoke the charm of the web in the late 1990s, featuring vibrant colors, funky animations, and retro fonts.
 
-## The application features:
+### The application features:
 
 * A fully functional 90s-style interface with HTML/CSS aesthetics.
 
