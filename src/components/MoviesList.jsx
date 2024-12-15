@@ -18,11 +18,11 @@ function Movies() {
                     {movies.map((movie, i) => (
                     <tr key={movie.year}>
                         <td className="movie-card">
-                            <img src={movie.image}
+                            <img src={`/90zflix${movie.image}`}
                             alt={movie.title}
                             className="movie-img"
                             // Play music on hover
-                            onMouseEnter={()=>handleMouseMove(movie.music)}
+                            onMouseEnter={()=>handleMouseMove(`/90zflix${movie.music}`)}
                             // Stop music when mouse leaves
                             onMouseLeave={handleMouseMove}/>
                              
