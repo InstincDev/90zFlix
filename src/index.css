@@ -97,6 +97,7 @@ marquee{
 
 nav{
   position:fixed;
+  top: 420px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -140,14 +141,13 @@ nav a:hover{
 
 .content table{
   margin: 20px auto;
-  /* border-collapse: collapse; */
 }
 
 tbody{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
 }
 
 td img{
