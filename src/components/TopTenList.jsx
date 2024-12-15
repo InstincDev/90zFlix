@@ -1,8 +1,9 @@
 function TopTenList(){
     return(
         <div>
-      <h3 name="ten"> Rewind the 90s: The Top Movies That Totally Rocked Each Year!  </h3>  
+      <h3 id="ten"> Rewind the 90s: The Top Movies That Totally Rocked Each Year!  </h3>  
         <table >
+            <tbody>
             <tr>
                 <td className="topten">
                     <button>
@@ -55,9 +56,10 @@ function TopTenList(){
                     </button>
                 </td>
             </tr>
+            </tbody>
         </table>
     </div>
     );
 };
 
-export default TopTenList
+export default TopTenList;

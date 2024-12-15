@@ -7,9 +7,9 @@ function Footer() {
             <p>
                 Made with ❤️ by InstincDev 
             </p>
-            <span className="blink">Under Construction</span>
+            <p className="blink">Under Construction</p>
         </footer>
     )
 }
 
-export default Footer
+export default Footer;
