@@ -1,7 +1,7 @@
 
 function Header() {
     return(
-        <div className="header">
+        <div className="header" id="header">
             <h1>
                 90zFlix 
             </h1>
