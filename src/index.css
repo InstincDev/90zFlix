@@ -48,6 +48,11 @@ body {
   
 }
 
+#year, #ten{
+  padding-top: 10px;
+  font-size: 30px;
+}
+
 /** Header **/
 
 .header{
@@ -281,7 +286,8 @@ footer{
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 15px;
+  background-color: #000;
   color: #fff;
 }
 
