@@ -1,30 +1,13 @@
 import React, {useState} from "react"
 import {movies} from "../movies"
+import {musicPlayer} from "../musicPlayer";
 
 function Movies() {
     // Manage the currently playing audio
-    const [movieMusic, setMovieMusic] = useState(null); 
+  const handleMouseMove = (music) => {
+    musicPlayer(music); // Start playing music when the mouse moves
+};
 
-    
-  const playMusic = (music) => {
-    // Stop any currently playing audio    
-    if (movieMusic) {
-      movieMusic.pause();
-      movieMusic.currentTime = 0; // Reset playback position
-    }
-
-    // Create and play a new audio instance
-    const newMusic = new Audio(music);
-    newMusic.play();
-    setMovieMusic(newMusic); // Save the new audio instance
-  };
-
-  const stopMusic = () => {
-    if (movieMusic) {
-      movieMusic.pause();
-      movieMusic.currentTime = 0; // Reset playback position
-    }
-  };
 
 
     return(
@@ -39,9 +22,9 @@ function Movies() {
                             alt={movie.title}
                             className="movie-img"
                             // Play music on hover
-                            onMouseEnter={()=>playMusic(movie.music)}
+                            onMouseEnter={()=>handleMouseMove(movie.music)}
                             // Stop music when mouse leaves
-                            onMouseLeave={stopMusic}/>
+                            onMouseLeave={handleMouseMove}/>
                              
                             <div className="movie-info">
                                 <h3>{movie.title} ({movie.year})</h3>
