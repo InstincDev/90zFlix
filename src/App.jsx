@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar"
 import Movies from "./components/MoviesList"
 import TopTenList from "./components/TopTenList"
 import Footer from "./components/Footer"
+import GuestBook from "./components/GuestBook"
 import "./index.css"
-
 
 function App() {
   
@@ -17,6 +17,7 @@ function App() {
       <Navbar/>
       <Movies/>
       <TopTenList/>
+      <GuestBook/>
       <Footer/>
     </div>
   )

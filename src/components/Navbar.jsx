@@ -1,7 +1,7 @@
 
 
-
 function Navbar() {
+   
    return(
     <nav>
         
@@ -11,7 +11,7 @@ function Navbar() {
                 
                     <a href="#ten">Top 10</a>
                     
-                    <a id="#">Guest List</a>
+                    <a href="#guest">Guest Book</a>
                     
     </nav>
    ) 
