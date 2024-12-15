@@ -1,5 +1,11 @@
 # 90zFlix
 
+
+
+https://github.com/user-attachments/assets/6a9bcaa6-f8f3-4d2f-9871-5e9faab66d86
+
+
+
 ## Project Description
 
 This project is a nostalgic recreation of a 1990s-style homepage. The design aims to evoke the charm of the web in the late 1990s, featuring vibrant colors, funky animations, and retro fonts.
