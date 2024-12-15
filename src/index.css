@@ -318,10 +318,10 @@ font-size: 12px;
 
 .modal {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  /* width: 100vw; */
-  /* height: 100vh; */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(250, 100, 100, 0.5);
   display: flex;
   justify-content: center;
